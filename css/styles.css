@@ -1,0 +1,86 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+.parag{
+  border: 1px solid black;
+  background-color: #D5FD9B;
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 26px 11px 10px 10px;
+  color: #6A2906;
+  font-family: Bradley Hand, cursive;
+  font-size: 15px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+ .col-lg-2, .col-lg-3, .col-lg-4{
+    float: left;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+   }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+header{
+	text-align: center;
+	font-size: 40pt;
+  font-family: Noto Sans, sans-serif;
+  color: #5D0D68;
+}
+
+span{
+	 border: 1px solid black;
+ 	 width: 33%; 
+	 text-align: center;
+	 float: right;
+	 margin-left: 1000px;
+	 margin-bottom: 10px;
+	 margin-top: -27px; 
+	 margin-right: -12px; 
+   font-family: Bradley Hand, cursive;
+   font-style: bold;
+   font-size: 25px;
+}
+
+.chicken, .beef, .sushi{
+   	background-color: #FCB99C;
+   	color: #AC1715;
+}
